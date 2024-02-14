@@ -1,6 +1,0 @@
-You can copy the code and compile it yourself if you are afraid of an unknown dll file
-and transfer the necessary files to the specified path:
-Move it first "Rooms3D.dll " to the folder
-"C:\Users\<YourUserName>\AppData\Roaming\Autodesk\Revit\Addins\<YourVersionRevit>\"
-and then "Rooms3D.addin" to the same place
-

@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CustomCSG, Version=1.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ankofl.CustomCSG.1.0.0\lib\net48\CustomCSG.dll</HintPath>
+    </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2022\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -70,10 +73,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomCSG\CustomCSG.csproj">
-      <Project>{9C8AACF0-E1F9-4832-B7EE-FD50DFDA3954}</Project>
-      <Name>CustomCSG</Name>
-    </ProjectReference>
+    <Content Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

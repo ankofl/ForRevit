@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>ankofl.CustomCSG</id>
+    <version>1.0.0</version>
+    <title>Several tools for Revit</title>
+    <authors>ankofl</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+	<readme>docs\README.md</readme>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/ankofl/ForRevit/tree/master/CustomCSG/</projectUrl>
+    <description>Several tools for Revit</description>
+    <releaseNotes>First version</releaseNotes>
+    <copyright>Copyright (c) 2024 ankofl</copyright>
+    <tags>First tag</tags>
+  </metadata>
+  <files>
+    <file src="..\README.md" target="docs\" />
+  </files>
+</package>

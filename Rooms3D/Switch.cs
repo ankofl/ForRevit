@@ -54,7 +54,7 @@ namespace Rooms3D
                     {
                         Solid solid = (Solid)elem.get_Geometry(new Options()).ElementAt(0);
 
-                        DirectShape ds1 = solid.CreateDirectShape(doc, BuiltInCategory.OST_Parking);
+                        DirectShape ds1 = solid.CreateDirectShape(doc, bic);
                         ds1.get_Parameter(BuiltInParameter.ALL_MODEL_INSTANCE_COMMENTS).Set(elem.Name);
                     }
                     catch { }

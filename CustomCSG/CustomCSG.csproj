@@ -12,11 +12,6 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-	<Pack>true</Pack>
-	<Authors>ankofl</Authors>
-    <Description>Several CSG tools for Revit</Description>
-	<PackageId>ankofl.CustomCSG</PackageId>
-    <Version>1.0.0</Version>
 	
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -61,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
+	<None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
