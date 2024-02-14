@@ -70,7 +70,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FaceBoolean\CustomCSG.csproj">
+    <ProjectReference Include="..\CustomCSG\CustomCSG.csproj">
       <Project>{9C8AACF0-E1F9-4832-B7EE-FD50DFDA3954}</Project>
       <Name>CustomCSG</Name>
     </ProjectReference>
