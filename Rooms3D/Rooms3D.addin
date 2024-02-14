@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>Switch visible Rooms</Name>
+		<Assembly>"Rooms3D.dll"</Assembly>
+		<AddInId>771FBB07-7918-4EC5-84AC-A42F519A2285</AddInId>
+		<FullClassName>Rooms3D.Switch</FullClassName>
+		<VendorId>ANKO</VendorId>
+	</AddIn>
+</RevitAddIns>
